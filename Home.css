@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
  body {
-    background: #081b29;
+    background: #ffffff;
  }
  .header {
     position: fixed;
@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,14 +20,14 @@
 
  .logo {
    font-size: 25px;
-   color: #ededed;
+   color: #000000;
    text-decoration: none;
    font-weight: 600;
  }
 
  .navbar a {
    font-size: 18px;
-   color: #ededed;
+   color: #000000;
    text-decoration: none;
    font-weight: 500;
    margin-left: 35px;
@@ -49,16 +49,19 @@
 .home {
   margin-top: 20px;
   font-size: 30px;
-  color: #ededed;
+  color: #000000;
   text-align: center;
 }
 .subtitle{
   font-size: 30px;
 }
-.github{
-  display: block;
+.flex-container{
+  display: flex;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.social{
   height: 50px;
 }
