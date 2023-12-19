@@ -58,7 +58,8 @@
     max-height: 80px;
 }
 .container form #button{
-    border: none;
-    background: grey;
+    border: 2px solid;
+    background: white;
     border-radius: 5px;
+    width: 100px;
 }
